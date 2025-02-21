@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 author: Gio Cerutti
+layout: page
 ---
 # Coffee Grinder
 things here
