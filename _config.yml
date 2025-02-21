@@ -31,7 +31,7 @@ github_username: giordcer
 title: Gio Cerutti
 author: Gio Cerutti
 description: My blog and portfolio
-url: http://localhost:4000
+url: http://giordcer.github.io
 # Build settings
 
 plugins:
