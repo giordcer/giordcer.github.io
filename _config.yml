@@ -54,6 +54,9 @@ paginate: 5
 collections:
   portfolio:
     output: true
+  posts:
+    output: true
+    
 
 
 
