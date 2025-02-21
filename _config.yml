@@ -49,7 +49,7 @@ kramdown:
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-remote-theme
-show_header: false
+paginate: 5
 
 collections:
   portfolio:
