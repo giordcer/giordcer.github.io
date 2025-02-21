@@ -55,9 +55,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:title
-  resume:
-    output: true
-    permalink: /resume/:title
 
 ordered_collections:
   - resume
