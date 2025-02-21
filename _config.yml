@@ -55,10 +55,14 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:title
+  resume:
+    output: true
+    permalink: /resume/:title
 
 ordered_collections:
-  - posts
+  - resume
   - portfolio
+  - posts
 
 include:
   - assets
