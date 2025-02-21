@@ -49,6 +49,7 @@ kramdown:
 remote_theme: zivhub/monophase@main
 plugins:
   - jekyll-remote-theme
+show_header: false
 
 
 # Exclude from processing.
