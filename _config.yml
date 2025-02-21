@@ -52,14 +52,13 @@ plugins:
 paginate: 5
 
 collections:
-  posts:
-    output: true
-    permalink: /:collection/:year-:month-:day-:title:output_ext
   portfolio:
     output: true
-    permalink: /:collection/:year-:month-:day-:title:output_ext
+    permalink: /portfolio/:title
 
-
+ordered_collections:
+  - posts
+  - portfolio
 
 
 
