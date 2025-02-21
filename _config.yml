@@ -46,11 +46,10 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: jekyll/minima
+remote_theme: zivhub/monophase@main
 plugins:
   - jekyll-remote-theme
-minima:
-  skin: auto
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
