@@ -51,6 +51,10 @@ plugins:
   - jekyll-remote-theme
 show_header: false
 
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
