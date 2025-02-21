@@ -28,9 +28,9 @@
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  giordcer
-title: My Website
+title: Gio Cerutti
 author: Gio Cerutti
-description: My personal blog and portfolio
+description: My blog and portfolio
 url: http://localhost:4000
 # Build settings
 theme: minima
