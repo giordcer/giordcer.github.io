@@ -2,6 +2,7 @@
 Title: Playing Checkers with Alpha-Beta Beam Search and CNNs
 Author: Gio Cerutti
 Date: 2023-12-12
+layout: post
 ---
 *This blog post has been adapted from a presentation given for the graduate course* Symbolic Artificial Intelligence *at Clarkson University in December 2023*
 
