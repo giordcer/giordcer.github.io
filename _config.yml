@@ -36,6 +36,17 @@ url: http://localhost:4000
 theme: minima
 plugins:
   - jekyll-feed
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
