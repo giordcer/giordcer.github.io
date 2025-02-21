@@ -47,7 +47,7 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 minima:
-  skin: auto
+  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
