@@ -1,6 +1,7 @@
-- title: Portfolio
-  url: /portfolio/
-- title: Resume
-  url: https://giordcer.github.io/GCResume.pdf
-- title: Posts
-  url: /posts/
+main:
+  - title: Portfolio
+    url: /portfolio/
+  - title: Resume
+    url: https://giordcer.github.io/GCResume.pdf
+  - title: Posts
+    url: /posts/
