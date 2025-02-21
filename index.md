@@ -4,5 +4,8 @@
 
 layout: home
 ---
-# balls
-Gio Cerutti's blog and portfolio
+# Gio Cerutti
+
+![Resume](/assets/GCResume.pdf)
+
+
