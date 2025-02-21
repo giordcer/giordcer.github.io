@@ -46,7 +46,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: hyde
+remote_theme: poole/hyde
 plugins:
   - jekyll-remote-theme
 show_header: false
