@@ -33,7 +33,7 @@ author: Gio Cerutti
 description: My blog and portfolio
 url: http://localhost:4000
 # Build settings
-theme: minima
+
 plugins:
   - jekyll-feed
 lsi: false
