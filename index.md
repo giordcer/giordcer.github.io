@@ -4,4 +4,4 @@
 
 layout: home
 ---
-this is my site!
+Gio Cerutti's blog and portfolio
