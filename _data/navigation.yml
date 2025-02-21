@@ -1,7 +1,7 @@
 main:
-  - title: Portfolio
+  - title: "Portfolio"
     url: /portfolio/
-  - title: Resume
+  - title: "Resume"
     url: https://giordcer.github.io/GCResume.pdf
-  - title: Posts
+  - title: "Posts"
     url: /posts/
