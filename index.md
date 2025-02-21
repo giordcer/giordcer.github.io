@@ -4,7 +4,6 @@
 
 layout: home
 ---
-# Gio Cerutti
 
 ![Resume](/assets/GCResume.pdf)
 
