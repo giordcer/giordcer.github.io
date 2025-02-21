@@ -27,7 +27,7 @@
 #  Google search results) and in your feed.xml site description.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  giordcer
+github_username: giordcer
 title: Gio Cerutti
 author: Gio Cerutti
 description: My blog and portfolio
