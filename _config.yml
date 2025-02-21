@@ -46,7 +46,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: academicpages.github.io
+remote_theme: Hyde
 plugins:
   - jekyll-remote-theme
 show_header: false
@@ -55,10 +55,7 @@ collections:
   portfolio:
     output: true
 
-include:
-  - .htaccess
-  - _pages
-  - files
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
