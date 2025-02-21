@@ -46,7 +46,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: brocollini/swiss
+remote_theme: sighingnow/jekyll-gitbook
 plugins:
   - jekyll-remote-theme
 paginate: 5
