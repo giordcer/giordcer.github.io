@@ -9,6 +9,11 @@ The point of this project was less to have an actual coffee grinder and more bec
 
 The project involved integrating a microcontroller, power supply, brushless motor, ESC, and reduction gearbox. 
 
+## Requirements
+The coffee grinder core I chose to use for this project requires about 1.4 N*m of shaft torque to grind. For an acceptable grind rate, I chose 80RPM as a target rotational velocity for the grinder. This means that the grinder requires about 12W of shaft power to operate. Gearbox losses are very significant with 3d printed gears, and especially the sliding contact gearboxes I have tried so far, so I chose a 16V, 32W power supply. 
+
+
+
 ## First Build
 
 An early version of the coffee grinder used a worm drive, but suffered from vibration & the helical gear was prone to popping off the grinder shaft. However, its electronics enclosure was roomy despite how short & compact it was. I don't have a picture of it with the worm integrated. 
@@ -17,11 +22,11 @@ An early version of the coffee grinder used a worm drive, but suffered from vibr
 
 ## A New Design
 
-After graduating, I lost my student Solidworks license and moved to Onshape. The first thing I designed was a new version of the grinder, using a split-ring gearbox:
+After graduating, I lost my student Solidworks license and moved to Onshape. The first thing I designed was a new version of the grinder, using a split-ring gearbox I found on Thingiverse:
 
 ![Split ring gearbox](/assets/grinder_gearbox_top.JPEG)
 
-The gearbox had some problems at first, but I increased density in the finely pitched teeth by reprinting with a 0.2mm nozzle, which strengthened the teeth.
+The gearbox had some problems at first, but I increased density in the finely pitched teeth by reprinting with a 0.2mm nozzle, which strengthened the teeth. 
 
 ![planet printed with 0.4mm nozzle](/assets/grinder_0.4mm_gear.JPEG)\
 *Tooth failure where the split rings meet the planet gears. Note the hollowness caused by the 0.4mm nozzle being too large to completely fill in the teeth.*
