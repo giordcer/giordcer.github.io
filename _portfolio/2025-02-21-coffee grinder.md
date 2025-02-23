@@ -5,7 +5,7 @@ layout: post
 ---
 The point of this project was less to have an actual coffee grinder and more because I just wanted to build something. That being said, burr grinders (the typical hand crank grinder) have a much better grind quality than typical electric coffee grinders, which have blades like a blender. So, since electric burr grinders are rather expensive compared to their hand crank counterparts, I thought I would have a try at building one myself, using a hand crank grinder's burrs.
 
-![Grinder CAD](/assets/grinder_CAD.png)
+![Grinder CAD](/assets/grinder_CAD.jpg)
 
 The project involved integrating a microcontroller, power supply, brushless motor, ESC, and reduction gearbox. 
 
