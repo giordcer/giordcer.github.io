@@ -43,5 +43,5 @@ Here's a video of the grinder in action:
 ## Roadmap
 In the future I plan to upgrade the gearbox to a version that does not involve sliding contact on the 3d printed gears to increase their lifespan. I could implement a Wolfrom drive or a belt-driven system. I could also use a stronger material or a material with a reduced friction coefficient, but I cannot print more exotic materials on this enclosure-less printer.
 
-
+[Onshape link](https://cad.onshape.com/documents/a8f6d220e42aa0f698fa49dd/w/ad4594e7f4a60be1f675f96d/e/5e049caf246cccc6c2610eea?renderMode=0&uiState=67bba943fd9b866452c4f9f6)
 
