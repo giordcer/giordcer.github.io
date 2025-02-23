@@ -9,10 +9,14 @@ The point of this project was less to have an actual coffee grinder and more bec
 
 The project involved integrating a microcontroller, power supply, brushless motor, ESC, and reduction gearbox. 
 
-## Requirements
-The coffee grinder core I chose to use for this project requires about 1.4 N*m of shaft torque to grind. For an acceptable grind rate, I chose 80RPM as a target rotational velocity for the grinder. This means that the grinder requires about 12W of shaft power to operate. Gearbox losses are very significant with 3d printed gears, and especially the sliding contact gearboxes I have tried so far, so I chose a 16V, 32W power supply. 
+## Requirements & Calculations
+The coffee grinder core I chose to use for this project requires about 1.4 N*m of shaft torque to grind. This was measured using a kitchen scale and a known distance from the shaft. For an acceptable grind rate, I chose 80RPM as a target rotational velocity for the grinder. This means that the grinder requires about 12W of shaft power to operate. Gearbox losses are very significant with 3d printed gears, and especially the sliding contact gearboxes I have tried so far, so I chose a 16V, 32W power supply. I first tried a 12V, 36W power supply, but I wasn't using 3A of current, so I swapped it for the 16V one to get more RPMs. I am still not using the full 2A of rated current on that power supply.
 
+I chose a brushless motor because I thought I might want to scrap this and turn it into a plane in the future.
 
+I calculated the no-load motor RPM by putting a bunch of tape on one side of the motor to unbalance it. Then, I ran the motor with my 12V power supply (I didn't try this with the 16V one) and matched the pitch the motor vibrations made with a keyboard. The motor vibrated at an Ab2, which is 104Hz. 104Hz*60RPM/Hz gives a no-load motor angular velocity of 6240RPM. I wasn't interested in spending the time to solve the equations to figure out what the loaded RPM would be, but I assumed it would be 90% of the no-load RPM to calculate the required gear reduction.
+
+To get an 80RPM (12W shaft power) output with a 5616RPM input, a gearbox with a ~80:1 reduction is required. It was very hard to find gearboxes that provide this amount of reduction in the form factor that I wanted. I started with a worm drive and currently the design uses a staged split ring planetary gearbox. In the future I will probably either design a true split ring Wolfrom drive (no sliding contact) or use 2 belts in series to provide the reduction needed, since this gearbox gets very warm and the PETG can soften too much when grinding light roasts. However, for darker roasts or shorter periods of time, this design works great.
 
 ## First Build
 
