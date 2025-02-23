@@ -24,3 +24,5 @@ I also designed a swappable lens hood to shield the camera from impact. Once I l
 When printed in PETG, this frame is heavier than a proper injection molded frame. However, when no frames are available, this one can be printed quickly and many spares can be made. This is also a great way to convert a whoop to a ductless format -- something I'll be trying when the snow melts. 
 
 **Side note**: I made my own 2.4GHz antenna for this quad after the stock one broke off the flight controller PCB. I actually get better reception with this monopole wire than with the stock SMD helical antenna. The green wire is just visible behind the canopy in the image above.
+
+The antenna can be made by cutting some thin gauge wire to the quarter wavelength of 2.4GHz: 31.25mm. Solid core wire is better than stranded. The wire is soldered directly to the antenna pad on the PCB. Performance would be improved if I soldered an identical wire to the antenna ground pads and oriented it at 90 degrees from the active element.
