@@ -26,7 +26,7 @@ An early version of the coffee grinder used a worm drive, but suffered from vibr
 
 ## A New Design
 
-After graduating, I lost my student Solidworks license and moved to Onshape. The first thing I designed was a new version of the grinder, using a split-ring gearbox I found on Thingiverse:
+After graduating, I lost my student Solidworks license and moved to Onshape. The first thing I designed was a new version of the grinder, using a split-ring gearbox I found on [Michael Rechtin's YouTube channel](https://www.youtube.com/watch?v=d9P5LBQqgFo):
 
 ![Split ring gearbox](/assets/grinder_gearbox_top.JPEG)
 
