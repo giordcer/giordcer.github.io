@@ -1,5 +1,5 @@
 ---
-Title: Checkers Engine
+Title: "Checkers Engine"
 Author: Gio Cerutti
 Date: 2023-12-12
 layout: post
