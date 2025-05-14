@@ -36,5 +36,6 @@ The goal of this experiment is to correlate the setting labels on the EnCuerdas 
 | 5       | 66    |
 | 6       | 72    |
 | 7       | 76    |
+
 ## Conclusion
 I sharpie’d on the temperature readings in their appropriate spots. Now, I’ll be able to dry at higher temps without fear of melting any filament.
