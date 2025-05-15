@@ -103,7 +103,7 @@ layout: post
 - Glued in the servo trays
 	- Spread glue around the sides of the tray
 		- One thin bead around the whole thing was a good amount: only got the slightest bit of foaming through the top
-		- The sloppier side (I tried to smear this side) got a little glue that dripped underneath the tray, but no big deal. I think a thin bead around the bottom edge of the side was plenty.
+		- The sloppier side (I tried to smear this side) got a little glue that dripped underneath the tray, but no big deal. A thin bead around the bottom edge of the side was plenty.
 	- Used small bottles to weigh down the trays overnight
 	- They seem to have stuck great pre-flight
 !![IMG_0679.jpeg](/assets/IMG_0679.jpeg)]
