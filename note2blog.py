@@ -22,14 +22,16 @@ while i < len(content):
         i += 1
         tagstart = i - 2
         while content[i] != "]":
+            if content[i] == " ":
+                tagval += "'"
             tagval += content[i]
             i += 1
-        print(tagval)
-        tagvals.append(tagval[:])
+        # # print(tagval)
+        # tagvals.append(tagval[:])
         tagend = i + 1
         newtag = f"![{tagval[:]}](/assets/{tagval[:]})"
-        print("newtag", newtag)
-        input("newtag")
+        # print("newtag", newtag)
+        # input("newtag")
         content = content[: tagstart - 1] + newtag + content[tagend + 1 :]
 
     i += 1

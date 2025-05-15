@@ -93,7 +93,7 @@ layout: post
 - I have previously noticed that Gorilla glue soaks into the foam, so I hope that these will actually adhere
 - They seem to have adhered great with only small dots of Gorilla glue in a line spaced about 10mm apart
 
-![Pasted image 20250323183505.jpg](/assets/Pasted image 20250323183505.jpg)
+![Pasted' image' 20250323183505.jpg](/assets/Pasted' image' 20250323183505.jpg)
 *Here, the tape on wingtips is to clamp on the wingtip covers while the glue cures*
 ## Servos pt. 1
 - I am personally soldering the servo wires onto the flight controller because the DuPont connectors are too tall for the plane and horizontal connectors wouldn't fit in the avionics compartment
