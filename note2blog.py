@@ -23,7 +23,7 @@ while i < len(content):
         tagstart = i - 2
         while content[i] != "]":
             if content[i] == " ":
-                tagval += "'"
+                tagval += "\\"
             tagval += content[i]
             i += 1
         # # print(tagval)
