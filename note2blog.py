@@ -30,7 +30,7 @@ while i < len(content):
         newtag = f"![{tagval[:]}](/assets/{tagval[:]})"
         print("newtag", newtag)
         input("newtag")
-        content = content[:tagstart] + newtag + content[tagend:]
+        content = content[: tagstart + 1] + newtag + content[tagend - 1 :]
 
     i += 1
 #   move files to /assets
