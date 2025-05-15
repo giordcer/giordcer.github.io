@@ -11,13 +11,37 @@ frontmatter = f'---\ntitle: "{title}"\ndate: {today}\nlayout: post\n---\n'
 with open(path, "r") as fp:
     content = fp.read()
 content = frontmatter + content
-print(content)
 
-os.chdir("/home/gc/giordcer.github.io/")
+# Find tags and replace
+i = 0
+tagvals = []
+while i < len(content):
+    tag = content[i] == "[" and content[i - 1] == "[" and content[i - 2] == "!"
+    tagval = ""
+    if tag:
+        tagstart = i - 2
+        while content[i] != "]":
+            i += 1
+            tagval += content[i]
+        tagvals.append(tagval[:])
+        tagend = i + 1
+        newtag = f"![{tagval[:-6]}](/assets/{tagval[:]})"
+        content = content[:tagstart] + newtag + content[tagend:]
+
+    i += 1
+#   move files to /assets
+for tag in tagvals:
+    os.system(
+        f"cp /home/gc/Documents/main/Images/{tag} /home/gc/giordcer.github.io/assets"
+    )
+
+# print(content)
+# input("pause")
+
+# os.chdir("/home/gc/giordcer.github.io/")
 os.system("git pull")
-newpath = f"/home/gc/giordcer.github.io/_posts/{filename}"
-with open(newpath, "w") as fp:
+with open(f"/home/gc/giordcer.github.io/_posts/{filename}", "w") as fp:
     fp.write(content)
-os.system(f"git add _posts/{filename}")
+os.system("git add --all")
 os.system(f"git commit -m 'Add new post: {filename}'")
 os.system("git push")
