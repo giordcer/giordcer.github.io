@@ -2,7 +2,6 @@ from datetime import date
 import os
 
 today = date.today().strftime("%Y-%m-%d")
-# print(today)
 path = input("Path to note: ")
 filename = os.path.basename(path)
 title = filename[:-3]
@@ -26,12 +25,9 @@ while i < len(content):
             i += 1
         tagval_old = tagval[:]
         tagval = tagval.replace(" ", "_")
-        # # print(tagval)
         tagvals.append((tagval_old[:], tagval[:]))
         tagend = i + 1
         newtag = f"![{tagval[:]}](/assets/{tagval[:]})"
-        # print("newtag", newtag)
-        # input("newtag")
         content = content[: tagstart - 1] + newtag + content[tagend + 1 :]
 
     i += 1
@@ -41,10 +37,7 @@ for tag in tagvals:
         f'cp /home/gc/Documents/main/Images/"{tag[0]}" /home/gc/giordcer.github.io/assets/{tag[1]}'
     )
 
-# print(content)
-# input("pause")
 
-# os.chdir("/home/gc/giordcer.github.io/")
 os.system("git pull")
 with open(f"/home/gc/giordcer.github.io/_posts/{filename}", "w") as fp:
     fp.write(content)

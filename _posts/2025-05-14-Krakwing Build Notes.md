@@ -19,6 +19,7 @@ layout: post
 ![IMG_2842.jpeg](/assets/IMG_2842.jpeg)
 *Test fitting: Yes, I cut the wings out with my Takamura. It worked great.*
 ## Gluing Wings to Fuselage
+Use a slower-setting glue, like E6000.
 
 ## Nose
 - Nose/camera mount had non-manifold geometry
