@@ -19,13 +19,17 @@ while i < len(content):
     tag = content[i] == "[" and content[i - 1] == "[" and content[i - 2] == "!"
     tagval = ""
     if tag:
+        i += 1
         tagstart = i - 2
         while content[i] != "]":
-            i += 1
             tagval += content[i]
+            i += 1
+        print(tagval)
         tagvals.append(tagval[:])
         tagend = i + 1
-        newtag = f"![{tagval[:-6]}](/assets/{tagval[:]})"
+        newtag = f"![{tagval[:]}](/assets/{tagval[:]})"
+        print("newtag", newtag)
+        input("newtag")
         content = content[:tagstart] + newtag + content[tagend:]
 
     i += 1

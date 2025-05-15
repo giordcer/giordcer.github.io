@@ -13,10 +13,10 @@ layout: post
 - cut the foam to shape using the plans, mostly freehanded, with only a scale, sharpie, and calipers
 	- In retrospect, should have printed a template 
 - The wings are mostly straight, but there were some gaps that needed to be filled and one wing is ~2-3 mm "in front" of the other
-![IMG_2843](/assets/IMG_2843.jpeg])]
+!![IMG_2843.jpeg](/assets/IMG_2843.jpeg)]
 *Carefully measured sharpie lines drawn pseudo-freehand*
 
-![IMG_2842](/assets/IMG_2842.jpeg])]
+!![IMG_2842.jpeg](/assets/IMG_2842.jpeg)]
 *Test fitting: Yes, I cut the wings out with my Takamura. It worked great.*
 ## Gluing Wings to Fuselage
 
@@ -36,7 +36,7 @@ layout: post
 - While printing the modified heat insert version of the nose, I tore a hole in a brand new bed due to bad offsets
 - After losing this brand new bed, I switched to powder coated steel and it is so much better, I should have always had a steel bed
 
-![IMG_0677](/assets/IMG_0677.jpeg])]
+!![IMG_0677.jpeg](/assets/IMG_0677.jpeg)]
 **Nose updates 3-29**:
 - I thought that the FC outputted 5v to camera, but it actually outputted BV to the camera, so I fried it. 
 	- Ordered new camera
@@ -51,18 +51,18 @@ layout: post
 - Left the elevons unpainted
 	- This really gives an orange sherbet vibe to the plane
 
-![IMG_2851](/assets/IMG_2851.jpeg])]
+!![IMG_2851.jpeg](/assets/IMG_2851.jpeg)]
 
-![IMG_2852](/assets/IMG_2852.jpeg])]
+!![IMG_2852.jpeg](/assets/IMG_2852.jpeg)]
 
-![IMG_2854](/assets/IMG_2854.jpeg])]
+!![IMG_2854.jpeg](/assets/IMG_2854.jpeg)]
 *Post-paint, pre-laminate*
 ## Foam Lamination
 - Waited 24hrs from painting and that seemed to be enough time
 - Sprayed the painted foam with one light coat of Super 77
 	- Was not enough, the laminate would stick in some places but not in others, most importantly the corners
 	- didn't notice the foam being dissolved 
-![IMG_2855](/assets/IMG_2855.jpeg])]
+!![IMG_2855.jpeg](/assets/IMG_2855.jpeg)]
 *Super 77 is almost completely transparent*
 - Cut the laminate to shape
 	- One piece for each piece of foam
@@ -74,7 +74,7 @@ layout: post
 		- With this film (I don't know what it is, but I think it's stationery laminate) the center-out method worked better: there were less wrinkles. Was not able to eliminate wrinkles entirely, however.
 	- Cut off excess film, will cover the beveled edge with a small flap
 - Overlapped foam from the top side to the bottom, i.e. left a flap on the top and ironed it over the bottom
-![IMG_2856](/assets/IMG_2856.jpeg])]
+!![IMG_2856.jpeg](/assets/IMG_2856.jpeg)]
 - The laminate shrunk ever so slightly
 	- It was enough to deform the slight reflex in the control surfaces, but this was to be expected because of how thin they are
 - Cut off excess with a utility blade
@@ -93,7 +93,7 @@ layout: post
 - I have previously noticed that Gorilla glue soaks into the foam, so I hope that these will actually adhere
 - They seem to have adhered great with only small dots of Gorilla glue in a line spaced about 10mm apart
 
-![Pasted image 2025032318350](/assets/Pasted image 20250323183505.jpg])]
+!![Pasted image 20250323183505.jpg](/assets/Pasted image 20250323183505.jpg)]
 *Here, the tape on wingtips is to clamp on the wingtip covers while the glue cures*
 ## Servos pt. 1
 - I am personally soldering the servo wires onto the flight controller because the DuPont connectors are too tall for the plane and horizontal connectors wouldn't fit in the avionics compartment
@@ -106,7 +106,7 @@ layout: post
 		- The sloppier side (I tried to smear this side) got a little glue that dripped underneath the tray, but no big deal. I think a thin bead around the bottom edge of the side was plenty.
 	- Used small bottles to weigh down the trays overnight
 	- They seem to have stuck great pre-flight
-![IMG_0679](/assets/IMG_0679.jpeg])]
+!![IMG_0679.jpeg](/assets/IMG_0679.jpeg)]
 
 At this time, I have to think critically about where I will route the servo wires, because I plan to have some electronics out on the surface of the wings, so I'm going to continue the servo story in the next section.
 
@@ -115,10 +115,10 @@ At this time, I have to think critically about where I will route the servo wire
 I didn't modify the avionics bay. I really thought I would have this project done in a weekend, and I didn't want to wait for another to print. In retrospect, I definitely should have waited and modified the avionics bay. 
 
 Since I decided to buy different electronics than Daniel designed the plane for, they don't really fit well in the avionics bay. I bought all of these right when the news outlets were crying "tariffs" and I really thought I would be hit hard if I tried to buy the Daniel-configured electronics from Aliexpress. So, I Amazon Primed slightly a different controller and VTx. The controller is smaller, but it doesn't line up with the 3d printed holes. The VTx is bigger, so I will have to mount it on the wing. This is not a huge deal though, as I can use the empty space in the avionics compartment for the receiver and ESC. 
-![IMG_2873](/assets/IMG_2873.jpeg])]
+!![IMG_2873.jpeg](/assets/IMG_2873.jpeg)]
 
 ## Conclusion
 It flies!
 
-![IMG_2884](/assets/IMG_2884.jpeg])]
-![IMG_2890](/assets/IMG_2890.jpeg])]
+!![IMG_2884.jpeg](/assets/IMG_2884.jpeg)]
+!![IMG_2890.jpeg](/assets/IMG_2890.jpeg)]
