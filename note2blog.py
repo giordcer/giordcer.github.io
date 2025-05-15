@@ -24,7 +24,7 @@ while i < len(content):
         while content[i] != "]":
             tagval += content[i]
             i += 1
-        taval = tagval.replace(" ", "_")
+        tagval = tagval.replace(" ", "_")
         # # print(tagval)
         # tagvals.append(tagval[:])
         tagend = i + 1
