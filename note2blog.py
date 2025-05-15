@@ -29,7 +29,8 @@ while i < len(content):
         # # print(tagval)
         # tagvals.append(tagval[:])
         tagend = i + 1
-        newtag = f"![{tagval[:]}](/assets/{tagval[:]})"
+        tvfront = tagval.replace("\\", "")
+        newtag = f"![{tvfront[:]}](/assets/{tagval[:]})"
         # print("newtag", newtag)
         # input("newtag")
         content = content[: tagstart - 1] + newtag + content[tagend + 1 :]
