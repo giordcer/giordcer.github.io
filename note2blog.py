@@ -38,7 +38,7 @@ while i < len(content):
 #   move files to /assets
 for tag in tagvals:
     os.system(
-        f'cp /home/gc/Documents/main/Images/"{tag[0]}" /home/gc/giordcer.github.io/assets{tag[1]}'
+        f'cp /home/gc/Documents/main/Images/"{tag[0]}" /home/gc/giordcer.github.io/assets/{tag[1]}'
     )
 
 # print(content)
