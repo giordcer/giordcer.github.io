@@ -54,7 +54,14 @@ paginate: 5
 collections:
   portfolio:
     output: true
+    sort_by: date
+    sort_order: desc
     permalink: /portfolio/:title
+  posts:
+    output: true
+    sort_by: date
+    sort_order: desc
+    permalink: /posts/:title
 
 ordered_collections:
   - resume
@@ -63,6 +70,7 @@ ordered_collections:
 
 include:
   - assets
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
