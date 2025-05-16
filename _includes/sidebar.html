@@ -1,0 +1,7 @@
+{% assign sorted_docs = site.docs | sort: "date" | reverse %}
+<ul>
+  {% for doc in sorted_docs %}
+    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+  {% endfor %}
+</ul>
+
