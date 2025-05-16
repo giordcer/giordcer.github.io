@@ -55,12 +55,12 @@ collections:
   portfolio:
     output: true
     sort_by: date
-    sort_order: desc
+    sort_order: asc
     permalink: /portfolio/:title
   posts:
     output: true
     sort_by: date
-    sort_order: desc
+    sort_order: asc
     permalink: /posts/:title
 
 ordered_collections:
