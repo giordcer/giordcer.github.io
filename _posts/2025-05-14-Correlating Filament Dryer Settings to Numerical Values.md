@@ -2,6 +2,7 @@
 title: "Correlating Filament Dryer Settings to Numerical Values"
 date: 2025-05-14
 layout: post
+order: 1
 ---
 The goal of this experiment is to correlate the setting labels on the EnCuerdas single-spool filament dryer to actual numerical temperature values.
 
