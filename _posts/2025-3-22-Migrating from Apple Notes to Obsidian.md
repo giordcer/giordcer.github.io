@@ -2,6 +2,7 @@
 title: "Migrating from Apple Notes to Obsidian"
 date: 2025-03-22
 layout: post
+order: 2
 ---
 Apple notes are a problem for me -- I love the app, it works really well with almost all of my devices & in the browser, but they are locked in: Apple provides no easy way to bulk export thousands of notes. What if Apple were to go bankrupt and all my Apple devices were smashed in a meteorite impact? So, I was pleased to find out that migrating from Apple Notes to Obsidian has become easy.
 

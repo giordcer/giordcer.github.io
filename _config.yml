@@ -54,13 +54,11 @@ paginate: 5
 collections:
   portfolio:
     output: true
-    sort_by: date
-    sort_order: asc
+    sort_by: order
     permalink: /portfolio/:title
   posts:
     output: true
-    sort_by: date
-    sort_order: asc
+    sort_by: order
     permalink: /posts/:title
 
 ordered_collections:
