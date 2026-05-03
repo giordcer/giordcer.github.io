@@ -1,9 +1,0 @@
-var canvas=document.getElementById('gameCanvas');var ctx=canvas.getContext('2d');var stars=[];var spaceship={x:canvas.width/2,y:canvas.height/2,angle:0,speed:0};
-function initStars(){for(var i=0;i<200;i++){stars.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,brightness:Math.random()});}}
-function drawStars(){ctx.fillStyle='black';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle='white';for(var i=0;i<stars.length;i++){var s=stars[i];ctx.fillStyle='rgba(255,255,255,'+s.brightness+');ctx.fillRect(s.x,s.y,2,2);}}
-function update(){spaceship.x+=Math.cos(spaceship.angle)*spaceship.speed;spaceship.y+=Math.sin(spaceship.angle)*spaceship.speed;if(spaceship.x<0)spaceship.x=canvas.width;if(spaceship.x>canvas.width)spaceship.x=0;if(spaceship.y<0)spaceship.y=canvas.height;if(spaceship.y>canvas.height)spaceship.y=0;}
-function drawSpaceship(){ctx.fillStyle='red';ctx.beginPath();ctx.moveTo(spaceship.x+10*Math.cos(spaceship.angle),spaceship.y+10*Math.sin(spaceship.angle));ctx.lineTo(spaceship.x-10*Math.cos(spaceship.angle)+5*Math.sin(spaceship.angle),spaceship.y-10*Math.sin(spaceship.angle)-5*Math.cos(spaceship.angle));ctx.lineTo(spaceship.x-10*Math.cos(spaceship.angle)-5*Math.sin(spaceship.angle),spaceship.y-10*Math.sin(spaceship.angle)+5*Math.cos(spaceship.angle));ctx.closePath();ctx.fill();}
-function loop(){update();drawStars();drawSpaceship();requestAnimationFrame(loop);}
-window.addEventListener('keydown',function(e){if(e.key==='ArrowUp')spaceship.speed=2; if(e.key==='ArrowDown')spaceship.speed=-2; if(e.key==='ArrowLeft')spaceship.angle-=0.1; if(e.key==='ArrowRight')spaceship.angle+=0.1;});
-window.addEventListener('keyup',function(e){if(e.key==='ArrowUp' || e.key==='ArrowDown')spaceship.speed=0;});
-initStars();loop();
