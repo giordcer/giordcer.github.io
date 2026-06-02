@@ -25,18 +25,15 @@
             "id": "ca82d94e9ae85911",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/Cerutti_SpaceX_Pres_0601.pdf"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-file-text",
+              "title": "Cerutti_SpaceX_Pres_0601"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,11 +195,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "ca82d94e9ae85911",
+  "active": "47da539774b16a74",
   "lastOpenFiles": [
     "assets/Cerutti_SpaceX_Pres_0601.pdf",
-    "_portfolio/2023-12-12-Checkers Engine.md",
     "index.md",
+    "_portfolio/2023-12-12-Checkers Engine.md",
     "Cerutti.md",
     "2026-05-14.md",
     "Cerutti All-Up Portfolio.md",
