@@ -1,0 +1,24 @@
+<nav class="book-nav">
+  {% if site.sidebar %}
+    {% for item in site.sidebar %}
+      <div class="book-section">
+        {% if item.title %}
+          <h3>{{ item.title }}</h3>
+        {% endif %}
+        {% if item.entries %}
+          <ul>
+            {% for entry in item.entries %}
+              <li>
+                {% if entry.url %}
+                  <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+                {% else %}
+                  <span>{{ entry.title }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
+</nav>
