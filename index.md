@@ -9,7 +9,7 @@ I like to build things.
 
 [Resume](https://giordcer.github.io/assets/GCResume-0526.pdf)
 
-[SpaceX Interview Presentation](Cerutti_SpaceX_Pres_0601.pdf)
+[SpaceX Interview Presentation](https://giordcer.github.io/assets/Cerutti_SpaceX_Pres_0601.pdf)
 <!-- <object data="https://giordcer.github.io/assets/GCResume_10-25.pdf" type="application/pdf" width="100%" height="900px">
     <embed src="https://giordcer.github.io/assets/GCResume_10-25.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://giordcer.github.io/assets/GCResume_10-25.pdf">Download PDF</a>.</p>
