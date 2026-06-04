@@ -25,15 +25,18 @@
             "id": "ca82d94e9ae85911",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "assets/Cerutti_SpaceX_Pres_0601.pdf"
+                "file": "2026-06-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Cerutti_SpaceX_Pres_0601"
+              "icon": "lucide-file",
+              "title": "2026-06-02"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,13 +198,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "47da539774b16a74",
+  "active": "ca82d94e9ae85911",
   "lastOpenFiles": [
+    "index.md~",
+    "assets/Cerutti_SpaceX_Presentation_0604.pptx",
+    "assets/Cerutti_SpaceX_Presentation_0604.pdf",
+    "assets/Cerutti_SpaceX_Pres_0601.pdf",
+    "2026-06-02.md",
+    "index.md",
     "assets/GCResume-0626.pdf",
     "assets/GCResume 0626.pdf",
     "_includes/sidebar.html",
-    "assets/Cerutti_SpaceX_Pres_0601.pdf",
-    "index.md",
     "_portfolio/2023-12-12-Checkers Engine.md",
     "Cerutti.md",
     "2026-05-14.md",
